@@ -1,2 +1,8 @@
-@use '../util' as *;
-@use '../globals' as *;
+@use '../util'as *;
+@use '../globals'as *;
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
