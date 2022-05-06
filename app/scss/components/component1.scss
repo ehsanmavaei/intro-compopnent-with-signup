@@ -21,7 +21,10 @@ body {
 
 }
 .show {
+   
+
     & > *{
+        transition: all 1s es;
         opacity: 1 !important;
     }
     & >input{
@@ -32,7 +35,7 @@ border-color:  red !important;
 }
 .main {
     margin: 0 auto;
-    // height: 100vh;
+ 
 
 
     width: min(100% -2rem, 375px);
@@ -58,6 +61,7 @@ border-color:  red !important;
 
 .register {
     @extend %center;
+    transition: opacity 1s ease;
 
     .try {
 
@@ -101,8 +105,9 @@ border-color:  red !important;
             border: .4px solid $green;
             border-radius: 10px;
             padding:  1rem 0.6rem;
-            margin: 0 1rem;
+          margin: 1rem;
             cursor: pointer;
+            flex: 1;
 
         }
 
